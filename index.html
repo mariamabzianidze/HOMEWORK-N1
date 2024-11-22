@@ -6,6 +6,15 @@
     <title>homework N1</title>
   </head>
   <body>
-    <script src="script.js"></script>
+    <script>
+      let fullName = prompt("შეიყვანეთ თქვენი სახელი და გვარი:");
+      let birthYear = prompt("შეიყვანეთ თქვენი დაბადების წელი:");
+      let address = prompt("შეიყვანეთ თქვენი საცხოვრებელი ადგილი:");
+      alert(
+        `გამარჯობა ${fullName} მიხარია რომ უკვე ${
+          2024 - Number(birthYear)
+        } წლის ხარ და ${address} აქ ცხოვრობ.`
+      );
+    </script>
   </body>
 </html>
